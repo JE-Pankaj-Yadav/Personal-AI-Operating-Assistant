@@ -1,0 +1,1 @@
+export default function Logo(){return <div className="logoMark"><div className="logoCore"><span className="logoGlyph"/></div><div><div className="brand">J.A.R.V.I.S</div><div className="brandSub">AI Assistant</div></div></div>}

@@ -1,0 +1,10 @@
+services:
+  pa-nexus:
+    build: .
+    ports: ["8011:8011"]
+    environment:
+      PA_NEXUS_SECRET_KEY: ${PA_NEXUS_SECRET_KEY:-change-me-in-production}
+      CORS_ORIGINS: http://127.0.0.1:8011,http://localhost:8011
+    volumes:
+      - ./data:/app/data
+      - ./uploads:/app/uploads

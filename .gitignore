@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+.env
+*.db
+__pycache__/
+.pytest_cache/
+.vite/
+dist/
+logs/*
+uploads/*
+!uploads/.gitkeep
